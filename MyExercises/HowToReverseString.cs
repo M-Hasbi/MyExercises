@@ -1,13 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace MyExercises
+﻿namespace MyExercises
 {
     public class HowToReverseString
     {
-        
+        public static void Reverse(string s)
+        {
+            char[] charArray = s.ToCharArray();
+            Array.Reverse(charArray);
+            Console.WriteLine(new string(charArray));
+        }
     }
 }

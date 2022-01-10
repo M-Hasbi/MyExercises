@@ -1,3 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using MyExercises;
+
+HowToReverseString.Reverse("Hasbi");
+StringIsPalindromeOrNot.PalindromeOrNot("kayak");
 
